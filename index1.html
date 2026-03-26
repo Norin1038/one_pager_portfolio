@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Norin Fatima - WEB Developer</title>
+    <link rel="stylesheet" href="./stylesheet.css?v=20260325">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="shortcut icon" href="favicon.ico" />
+</head>
+<body>
+    <!-- ===== NAVBAR ===== -->
+    <header>
+        <nav>
+            <div class="nav-brand">Norin Fatima</div>
+            <div class="menu-icon" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- ===== HERO ===== -->
+        <section id="home" class="hero">
+            <div class="hero-left">
+                <p class="hero-greeting">Hi, my name is</p>
+                <h1 class="hero-name"><span class="purple">Norin Fatima</span></h1>
+                <p class="hero-subtitle">and I am a</p>
+                <span id="element"></span>
+                <div class="hero-buttons">
+                    <a href="https://www.linkedin.com/in/norin-fatima-7a21a13b7?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" class="btn">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                    <a href="https://github.com/Norin1038" target="_blank" class="btn">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="CV.pdf" target="_blank" class="btn">
+                        <i class="fa-solid fa-download"></i> Download CV
+                    </a>
+                    <a href="mailto:bsitf24m21@bgnu.edu.pk" class="btn btn-outline">
+                        <i class="fas fa-envelope"></i> Hire Me
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- ===== ABOUT ===== -->
+        <section id="about" class="section">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-container">
+                <div class="about-text">
+                    <p>
+                        I am Norin Fatima, an IT enthusiast from Nankana, Pakistan.  
+                        I enjoy solving problems and continuously improving my skills.
+                    </p>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Manawala, Punjab, Pakistan</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>bsitf24m21@bgnu.edu.pk</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+92 329 7477639</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- ===== SERVICES ===== -->
+        <section id="services" class="section">
+            <h2 class="section-title">Services</h2>
+            <div class="services-grid">
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3>Web Development</h3>
+                    <p class="service-desc"> I can develop a responsive website.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                     <i class="fa-solid fa-desktop"></i>
+                    </div>
+                     <h3>MS Office</h3>
+                        <p class="service-desc">I have skills in Microsoft Office (Word, Excel, PowerPoint).</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-database"></i></div>
+                    <h3>Database Design &amp; Engineering</h3>
+                    <p class="service-desc">Efficient, reliable database architecture and query optimization for enterprise applications.</p>
+                </div>
+            </div>
+        </section>
+        <!-- ===== CONTACT ===== -->
+        <section id="contact" class="section">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-grid">
+
+                <a href="https://github.com/Norin1038" target="_blank" class="contact-card">
+                    <i class="fab fa-github"></i>
+                    <span>github.com/norinfatima</span>
+                </a>
+
+                <a href="mailto:bsitf24m21@bgnu.edu.pk" class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <span>bsitf24m21@bgnu.edu.pk</span>
+                </a>
+
+                <a href="https://www.linkedin.com/in/norin-fatima/" target="_blank" class="contact-card">
+                    <i class="fab fa-linkedin"></i>
+                    <span>Norin Fatima </span>
+                </a>
+
+                <a href="https://wa.me/+923297477639" target="_blank" class="contact-card">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>+92 329 7477639</span>
+                </a>
+
+                <a href="https://web.facebook.com/profile.php?id=61575602324779" target="_blank" class="contact-card">
+                    <i class="fab fa-facebook"></i>
+                    <span>Norin Rajpoot</span>
+                </a>
+
+                <a href="https://www.instagram.com/muhammadsaleem30732024?igsh=NXQzYWN6emI0bjR2" target="_blank" class="contact-card">
+                    <i class="fab fa-instagram"></i>
+                    <span>muhammadsaleem30732024</span>
+                </a>
+
+                <div class="contact-card no-link">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Manawala, Punjab, Pakistan</span>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-rights">
+            Copyright &copy; 2026 Norin Fatima &nbsp;|&nbsp; All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: [
+                'Web Developer',
+                'C/C++ Developer',
+                'Database Designer',
+                'MS Office Expert'
+            ],
+            typeSpeed: 50,
+            backSpeed: 30,
+            loop: true,
+        });
+    </script>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.getElementById('navLinks');
+            navLinks.classList.toggle('open');
+        }
+        document.querySelectorAll('.nav-links a').forEach(function(link) {
+            link.addEventListener('click', function() {
+                document.getElementById('navLinks').classList.remove('open');
+            });
+        });
+    </script>
+</body>
+</html>
